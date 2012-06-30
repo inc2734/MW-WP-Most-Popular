@@ -1,6 +1,6 @@
 === MW WP Most Popular ===
 Contributors: Takashi Kitajima
-Modified: May 9, 2012
+Modified: June 30, 2012
 
 It is the change version of "WP Most Popular". http://mattgeri.com/projects/wordpress/wp-most-popular
 
