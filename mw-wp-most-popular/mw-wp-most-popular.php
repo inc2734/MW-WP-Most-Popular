@@ -3,10 +3,10 @@
 	Plugin Name: MW WP Most Popular
 	Plugin URI: http://2inc.org
 	Description: It is the change version of "WP Most Popular". http://mattgeri.com/projects/wordpress/wp-most-popular
-	Version: 0.2
+	Version: 0.2.1
 	Author: Takashi Kitajima
 	Author URI: http://2inc.org
-	Modified: June 30, 2012
+	Modified: August 16, 2012
 	
 	Original Plugin Name: WP Most Popular
 	Original Original Plugin URI: http://mattgeri.com/projects/wordpress/wp-most-popular
@@ -89,7 +89,7 @@ class MW_WMP_system{
 		register_widget( 'MW_WMP_Widget' );
 	}
 	
-	public static function install() {
+	public static function activation() {
 		include_once( plugin_dir_path( __FILE__ ) . 'system/setup.php' );
 		MW_WMP_setup::install();
 	}
